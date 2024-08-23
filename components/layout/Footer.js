@@ -2,12 +2,12 @@ import React from "react";
 import Link from "next/link";
 
 const Footer = () => (
-  <footer className="bg-[#655c3b] text-white shadow mt-8">
+  <footer className="bg-gray-600 text-white shadow mt-8">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="flex flex-wrap justify-between items-start">
         <div className="w-full md:w-1/3">
-          <h4 className="text-lg font-semibold">Follow Us</h4>
-          <div className="mt-2 flex space-x-4">
+          {/* <h4 className="text-lg font-semibold">Follow Us</h4> */}
+          {/* <div className="mt-2 flex space-x-4">
             <a
               href="https://facebook.com"
               target="_blank"
@@ -52,7 +52,7 @@ const Footer = () => (
                 <path d="M22.23 0H1.77C.79 0 0 .78 0 1.75v20.5C0 23.22.79 24 1.77 24h20.45c.98 0 1.77-.78 1.77-1.75V1.75C24 .78 23.21 0 22.23 0zM7.12 20.44H3.56V9h3.56v11.44zm-1.78-13c-1.14 0-1.85-.77-1.85-1.74 0-.99.73-1.75 1.88-1.75 1.15 0 1.85.76 1.86 1.75-.01.97-.7 1.74-1.85 1.74zm15.43 13H17.1v-5.72c0-1.44-.5-2.42-1.76-2.42-.96 0-1.53.66-1.79 1.3-.09.23-.11.56-.11.89v5.96H9.88c.05-9.68 0-11 0-11h3.55v1.57h-.02c.47-.73 1.31-1.76 3.18-1.76 2.33 0 4.08 1.5 4.08 4.72v6.49z" />
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="mt-8 border-t border-gray-200 pt-4 text-center">
